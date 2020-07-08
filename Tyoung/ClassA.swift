@@ -6,6 +6,6 @@
 //  Copyright © 2020 PeoGoo. All rights reserved.
 //
 
-class ClassA {
+public class ClassA {
     public var str = "abc"
 }

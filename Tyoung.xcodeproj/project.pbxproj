@@ -14,6 +14,7 @@
 		E409C33224B5802A0068E5D7 /* ClassC.h in Headers */ = {isa = PBXBuildFile; fileRef = E409C33024B5802A0068E5D7 /* ClassC.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E409C33324B5802A0068E5D7 /* ClassC.m in Sources */ = {isa = PBXBuildFile; fileRef = E409C33124B5802A0068E5D7 /* ClassC.m */; };
 		E409C33424B580540068E5D7 /* ClassA.swift in Headers */ = {isa = PBXBuildFile; fileRef = E409C32A24B57FA40068E5D7 /* ClassA.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4954F6524B5D030007AB1AA /* Tyoung.podspec in Resources */ = {isa = PBXBuildFile; fileRef = E4954F6424B5D030007AB1AA /* Tyoung.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		E409C32D24B57FCB0068E5D7 /* ClassB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClassB.m; sourceTree = "<group>"; };
 		E409C33024B5802A0068E5D7 /* ClassC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClassC.h; sourceTree = "<group>"; };
 		E409C33124B5802A0068E5D7 /* ClassC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClassC.m; sourceTree = "<group>"; };
+		E4954F6424B5D030007AB1AA /* Tyoung.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = Tyoung.podspec; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 		E409C32124B57F910068E5D7 /* Tyoung */ = {
 			isa = PBXGroup;
 			children = (
+				E4954F6424B5D030007AB1AA /* Tyoung.podspec */,
 				E409C32224B57F910068E5D7 /* Tyoung.h */,
 				E409C32A24B57FA40068E5D7 /* ClassA.swift */,
 				E409C32C24B57FCB0068E5D7 /* ClassB.h */,
@@ -141,6 +144,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4954F6524B5D030007AB1AA /* Tyoung.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
