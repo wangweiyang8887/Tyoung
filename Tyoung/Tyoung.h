@@ -7,6 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <Tyoung/ClassB.h>
+#import <Tyoung/ClassC.h>
+#import <Tyoung/Tyoung-Swift.h>
+
 
 //! Project version number for Tyoung.
 FOUNDATION_EXPORT double TyoungVersionNumber;

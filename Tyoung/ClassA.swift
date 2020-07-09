@@ -6,6 +6,13 @@
 //  Copyright © 2020 PeoGoo. All rights reserved.
 //
 
-public class ClassA {
+public class ClassA : NSObject {
     public var str = "abc"
+    
+    @objc public override init() {}
+    
+    @objc public func testB() {
+        let b = ClassB()
+        print(b)
+    }
 }
