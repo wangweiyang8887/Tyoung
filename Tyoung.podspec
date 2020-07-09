@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name               = "Tyoung"
-  spec.version            = "0.0.7"
+  spec.version            = "0.0.8"
   spec.summary            = "A short description of tyoung."
   spec.homepage           = "https://github.com/explore"
   spec.license            = "MIT"
@@ -13,5 +13,6 @@ Pod::Spec.new do |spec|
   spec.framework  = "Foundation"
   spec.frameworks = "Foundation", "UIKit"
   spec.requires_arc = true
-
+  spec.swift_version = '5.0'
+  spec.pod_target_xcconfig = { 'SWIFT_VERSION' => '5.0' }
 end
