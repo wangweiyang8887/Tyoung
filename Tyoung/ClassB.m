@@ -7,14 +7,14 @@
 //
 
 #import "ClassB.h"
-//#import <Tyoung/Tyoung-Swift.h>
+#import <Tyoung/Tyoung-Swift.h>
 
 @implementation ClassB
 
 
 - (void)testB {
-//    ClassA *a = [[Classa alloc] init];
-//    ClassA 
+    ClassA *a = [[ClassA alloc] init];
+    [a testB];
 }
 
 @end

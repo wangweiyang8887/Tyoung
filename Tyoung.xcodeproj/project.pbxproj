@@ -13,7 +13,7 @@
 		E409C32F24B57FCB0068E5D7 /* ClassB.m in Sources */ = {isa = PBXBuildFile; fileRef = E409C32D24B57FCB0068E5D7 /* ClassB.m */; };
 		E409C33224B5802A0068E5D7 /* ClassC.h in Headers */ = {isa = PBXBuildFile; fileRef = E409C33024B5802A0068E5D7 /* ClassC.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E409C33324B5802A0068E5D7 /* ClassC.m in Sources */ = {isa = PBXBuildFile; fileRef = E409C33124B5802A0068E5D7 /* ClassC.m */; };
-		E409C33424B580540068E5D7 /* ClassA.swift in Headers */ = {isa = PBXBuildFile; fileRef = E409C32A24B57FA40068E5D7 /* ClassA.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		E409C33424B580540068E5D7 /* ClassA.swift in Headers */ = {isa = PBXBuildFile; fileRef = E409C32A24B57FA40068E5D7 /* ClassA.swift */; };
 		E4954F6524B5D030007AB1AA /* Tyoung.podspec in Resources */ = {isa = PBXBuildFile; fileRef = E4954F6424B5D030007AB1AA /* Tyoung.podspec */; };
 /* End PBXBuildFile section */
 
@@ -79,9 +79,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E409C32E24B57FCB0068E5D7 /* ClassB.h in Headers */,
-				E409C33424B580540068E5D7 /* ClassA.swift in Headers */,
 				E409C33224B5802A0068E5D7 /* ClassC.h in Headers */,
 				E409C32424B57F910068E5D7 /* Tyoung.h in Headers */,
+				E409C33424B580540068E5D7 /* ClassA.swift in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +297,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = PeoGoo.Tyoung;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -323,6 +324,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = PeoGoo.Tyoung;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
