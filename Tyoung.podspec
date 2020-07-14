@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name               = "Tyoung"
-  spec.version            = "0.1.0"
+  spec.version            = "0.1.1"
   spec.summary            = "Test Framework"
   spec.homepage           = "https://github.com/wangweiyang8887"
   spec.license            = "MIT"
