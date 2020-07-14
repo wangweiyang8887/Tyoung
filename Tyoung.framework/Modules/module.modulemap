@@ -1,0 +1,11 @@
+framework module Tyoung {
+  umbrella header "Tyoung.h"
+
+  export *
+  module * { export * }
+}
+
+module Tyoung.Swift {
+    header "Tyoung-Swift.h"
+    requires objc
+}
