@@ -7,14 +7,15 @@
 //
 
 #import "ClassB.h"
-#import <Tyoung/Tyoung-Swift.h>
+#import <UIKit/UIKit.h>
+#import <BlocksKit/BlocksKit.h>
+#import <BlocksKit/UIView+BlocksKit.h>
 
 @implementation ClassB
 
-
 - (void)testB {
-    ClassA *a = [[ClassA alloc] init];
-    [a testB];
+    UIView * view = [[UIView alloc]init];
+    [view bk_whenTapped:^{ }];
 }
 
 @end

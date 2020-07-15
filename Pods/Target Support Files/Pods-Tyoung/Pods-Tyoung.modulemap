@@ -1,0 +1,6 @@
+framework module Pods_Tyoung {
+  umbrella header "Pods-Tyoung-umbrella.h"
+
+  export *
+  module * { export * }
+}
