@@ -9,4 +9,5 @@ Pod::Spec.new do |spec|
   spec.source             = { :git => "https://github.com/wangweiyang8887/Tyoung.git", :tag => "#{spec.version}" }
   spec.swift_version = '4.2'
   spec.ios.vendored_frameworks = 'Tyoung.framework'
+  spec.dependency 'BlocksKit'
 end
